@@ -118,18 +118,6 @@ extension TabBarSplitViewController {
             }
         }
     }
-
-    /**
-    TabBarSplitViewController (Bridging for Objective-C)
-
-    - Parameter primaryViewControllers: View controllers for UITabBarController as primary; if setting only 1 view controller, will fall back to UINavigationController as primary.
-    - Parameter detailClassGeneral: class that can be expanded in regular horizontalSizeClass
-    - Parameter withNavigationController: with UINavigationController as secondary
-    - Parameter detailClassEmpty: class to be presented when no detail available
-    */
-    public convenience init(primaryViewControllers: [UINavigationController], detailClassGeneral: UIViewController.Type, withNavigationController: Bool, detailClassEmpty: UIViewController.Type) {
-        self.init(primaryViewControllers: primaryViewControllers, SecondaryViewControllerConfiguration: (detailClassGeneral, withNavigationController, detailClassEmpty))
-    }
 }
 
 // MARK: -
