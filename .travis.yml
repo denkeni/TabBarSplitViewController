@@ -1,5 +1,5 @@
 language: objective-c	# Even though this project is in Swift
 xcode_project: TabBarSplitViewController.xcodeproj
 xcode_scheme: TabBarSplitViewController
-osx_image: xcode10.1
-xcode_sdk: iphonesimulator12.1
+osx_image: xcode10.2
+xcode_sdk: iphonesimulator12.2
