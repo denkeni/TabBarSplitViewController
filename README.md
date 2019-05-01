@@ -1,6 +1,6 @@
 # TabBarSplitViewController
 
-[![Build Status](https://travis-ci.org/indievox-inc/TabBarSplitViewController.svg?branch=master)](https://travis-ci.org/indievox-inc/TabBarSplitViewController)
+[![Build Status](https://travis-ci.org/denkeni/TabBarSplitViewController.svg?branch=master)](https://travis-ci.org/denkeni/TabBarSplitViewController)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
@@ -39,7 +39,7 @@ iOS 8 or later
 In light of [this discussion](https://github.com/CocoaPods/CocoaPods/issues/4989#issuecomment-193772935), we encourage this form:
 
 ```
-pod 'TabBarSplitViewController', :git => 'https://github.com/indievox-inc/TabBarSplitViewController'
+pod 'TabBarSplitViewController', :git => 'https://github.com/denkeni/TabBarSplitViewController'
 use_frameworks!
 ```
 
@@ -49,7 +49,7 @@ Run `pod update`.
 
 #### Cartfile
 ```
-github "indievox-inc/TabBarSplitViewController"
+github "denkeni/TabBarSplitViewController"
 ```
 
 Follow instructions on [Carthage](https://github.com/Carthage/Carthage).
@@ -59,7 +59,7 @@ Follow instructions on [Carthage](https://github.com/Carthage/Carthage).
 Add as submodule and clone:
 
 ```
-git submodule add https://github.com/indievox-inc/TabBarSplitViewController
+git submodule add https://github.com/denkeni/TabBarSplitViewController
 ```
 
 Then manually add to your project, as follows:
@@ -79,9 +79,7 @@ Or just drag `TabBarSplitViewController.swift` into your project.
 
 ### Import TabBarSplitViewController Framework
 
-For Swift projects, `import TabBarSplitViewController` before using it. See [Example](https://github.com/indievox-inc/TabBarSplitViewController/tree/master/Example/TabBarSplitViewControllerDemo).
-
-For Objective-C projects, `#import "TabBarSplitViewController/TabBarSplitViewController-Swift.h"` before using it, and change project settings - Targets - Build Settings - `Embedded Content Contains Swift Code` to `YES`. See [Example-ObjC](https://github.com/indievox-inc/TabBarSplitViewController/tree/master/Example/TabBarSplitViewControllerDemo-ObjC) (`carthage update` before running it).
+For Swift projects, `import TabBarSplitViewController` before using it. See [Example](https://github.com/denkeni/TabBarSplitViewController/tree/master/Example/TabBarSplitViewControllerDemo).
 
 ### Init TabBarSplitViewController
 
@@ -99,9 +97,9 @@ Further reading: [WWDC 2014 Session 216: Building Adaptive Apps with UIKit](http
 
 ## Afterword
 
-This project powered [LiVE EVIL](http://appshopper.com/lifestyle/live-evil-%E7%8F%BE%E5%A0%B4%E4%B8%80%E7%99%BC-%E9%9F%B3%E6%A8%82%E6%B4%BB%E5%8B%95%E8%B3%87%E8%A8%8A%E3%80%81%E6%BC%94%E5%94%B1%E6%9C%83%E8%B3%BC%E7%A5%A8%E3%80%81live-house-%E8%88%87%E9%9F%B3) app of iNDIEVOX Inc., ~~and is planned to be maintained with the latest Swift and Xcode version.~~ is written in Swift 2.2, and will not be maintained in this repository anymore. Please check other forked repositories.
+This project powered [LiVE EVIL](http://appshopper.com/lifestyle/live-evil-%E7%8F%BE%E5%A0%B4%E4%B8%80%E7%99%BC-%E9%9F%B3%E6%A8%82%E6%B4%BB%E5%8B%95%E8%B3%87%E8%A8%8A%E3%80%81%E6%BC%94%E5%94%B1%E6%9C%83%E8%B3%BC%E7%A5%A8%E3%80%81live-house-%E8%88%87%E9%9F%B3) app of iNDIEVOX Inc., and is planned to be maintained with the latest Swift and Xcode version.
 
-If you prefer Objective-C to avoid dependency hell of fast-moving Swift version (See: [Is It Time for Swift?](https://realm.io/news/ben-sandofsky-time-for-swift)), or if you're using customized view for tab bar, port the source code and build your own should be easy now, by referencing [the original implementation](https://github.com/indievox-inc/TabBarSplitViewController/blob/59957600bdeb7bd985e3173601474220ba3083a8/TabBarSplitViewController/TabBarSplitViewController.swift).
+If you prefer Objective-C to avoid dependency hell of fast-moving Swift version (See: [Is It Time for Swift?](https://academy.realm.io/posts/ben-sandofsky-time-for-swift/)), or if you're using customized view for tab bar, port the source code and build your own should be easy now, by referencing [the original implementation](https://github.com/denkeni/TabBarSplitViewController/blob/59957600bdeb7bd985e3173601474220ba3083a8/TabBarSplitViewController/TabBarSplitViewController.swift).
 
 There are one UI logic flaw in this UI structure, though not a big concern:
 
@@ -109,4 +107,4 @@ There are one UI logic flaw in this UI structure, though not a big concern:
 
 ## Licenses
 
-All source code is licensed under the MIT License. See [LICENSE](https://github.com/indievox-inc/TabBarSplitViewController/blob/master/LICENSE).
+All source code is licensed under the MIT License. See [LICENSE](https://github.com/denkeni/TabBarSplitViewController/blob/master/LICENSE).
